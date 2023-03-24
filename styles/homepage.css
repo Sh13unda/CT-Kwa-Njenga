@@ -1,0 +1,48 @@
+.hero-image {
+    height: 330px;
+    margin-bottom: 10px;
+    background-image: url("../images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    color: white; 
+}
+
+.hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.grid-wrapper {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  
+  .grid-wrapper > div {
+    background-color: rgba(3, 20, 66, 0.8);
+    text-align: center;
+    padding: 15px;
+  }
+  
+  .grid-item1 {
+    grid-column: 1/3;
+  }
+
+  .grid-item2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .grid-item2-p {
+    padding: 20px;
+    line-height: 1.5;
+  }
+
+.grid-item3 iframe {
+    width: 100%;
+    height: 350px;
+}
