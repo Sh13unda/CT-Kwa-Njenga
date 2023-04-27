@@ -1,4 +1,4 @@
-d<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -32,10 +32,10 @@ d<!DOCTYPE html>
     </head>
     <body>
 
-        <nav class="d-sm-flex navbar navbar-expand-lg p-5 bg-body-white">
+        <nav class="d-sm-flex navbar navbar-expand-lg p-3 bg-body-white">
 			<div class="container">
 				<a class="navbar-brand" href="#">
-					<img src="/images/logo-color.png" alt="Logo" width="30" height="24">
+					<img class="w-75" src="/images/logo-color.png" alt="Logo">
 				</a>
 			
 
@@ -45,49 +45,42 @@ d<!DOCTYPE html>
 
 				<div class="collapse navbar-collapse" id="navbarNavDropdown">
 					<ul class="navbar-nav ms-auto">
-					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Features</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="#">Pricing</a>
-					</li>
-					<li class="nav-item dropdown">
-						<a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-						Dropdown link
-						</a>
-						<ul class="dropdown-menu">
-						<li><a class="dropdown-item" href="#">Action</a></li>
-						<li><a class="dropdown-item" href="#">Another action</a></li>
-						<li><a class="dropdown-item" href="#">Something else here</a></li>
-						</ul>
-					</li>
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="#">Home</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Teachings</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
 					</ul>
 				</div>
 			</div>	
 		</nav>
 
         <main>
-			<section class="p-3">
+			<section class="p-4">
 				<div class="container">
 					<div class="d-md-flex justify-content-evenly align-items-center">
 						<div>
-							<button href="#who" type="button" class="w-100 btn btn-outline-info btn-lg">Who We Are</button>
+							<button href="#who" type="button" class="w-100 btn btn-outline-info btn-lg btn-block">Who We Are</button>
 						</div>
 						<div>
-							<button type="button" class="w-100 btn btn-outline-info btn-lg">What We Believe</button>
+							<button type="button" class="w-100 btn btn-outline-info btn-lg btn-block">What We Believe</button>
 						</div>
 						<div>
-							<button href="#leadership" type="button" class="w-100 btn btn-outline-info btn-lg">Leadership</button>
+							<button href="#leadership" type="button" class="w-100 btn btn-outline-info btn-lg btn-block">Leadership</button>
 						</div>
 					</div>
 				</div>
 			</section>
 
 			<section id="who" class="p-3 bg-dark">
-				<div class="container">
+				<div class="container text-white">
 					<div class="text-center">
 						<h1>Who We Are</h1>
 					</div>
@@ -141,7 +134,7 @@ d<!DOCTYPE html>
 				</div>
 			</section>
 
-			<section id="leadership" class="p-3">
+			<section id="leadership" class="p-3 mb-3">
 				<div class="container">
 					<h1 class="text-center text-dark">Leadership</h1>
 					<div class="row g-2 text-center">
@@ -203,64 +196,45 @@ d<!DOCTYPE html>
             
         <!--Footer Start-->
         
-        <footer class="p-3 text-dark">
+        <footer>
 
-			<div class="container">
-				<div class="d-flex flex-row justify-content-center">
-					<div class="footer-left">
-
-						<img class="w-75" src="images/logo-color.png" alt="Logo">
-	
-						<p class="footer-links">
-							<a href="#" class="link-1">Home</a>
-	
-							<a href="#">About</a>
-							
-							<a href="#">Teaching</a>
-							
-							<a href="#">Contact</a>
-						</p>
-	
+			<div class="container py-1 border-top">
+				<div class="row d-sm-flex justify-content-sm-between align-items-sm-center">
+					<div class="col p-3 text-center">
+						<img src="images/logo-color.png" alt="Logo">
 					</div>
-					<div class="footer-center">
+
+					<div class="col p-1">
+						<div>
+							<h5 class="text-dark">Contact Us</h5>
+						</div>
 
 						<div>
-							<i class="fa fa-map-marker"></i>
-							<p><span>444 S. Cedros Ave</span> Solana Beach, California</p>
+							<p>444 S. Cedros AveSolana Beach, California</p>
 						</div>
 	
 						<div>
-							<i class="fa fa-phone"></i>
 							<p>+1.555.555.5555</p>
 						</div>
 	
 						<div>
-							<i class="fa fa-envelope"></i>
 							<p><a href="mailto:lorem@ipsum.com">lorem@ipsum.com</a></p>
 						</div>
-	
 					</div>
 
-					<div class="footer-right">
-
-						<p class="footer-company-about">
-							<span>About Us</span>
-							Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
-						</p>
-	
-						<div class="footer-icons">
-	
-							<a href="#"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-twitter"></i></a>
-							<a href="#"><i class="fa fa-linkedin"></i></a>
-	
+					<div class="col p-1">
+						<div class="">
+							<h5 class="text-dark">About Us</h5>
+							<p class="text-wrap">
+								Lorem ipsum dolor sit amet, consectateur adispicing elit. Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.
+							</p>
 						</div>
-					</div>
+					</div>	
 				</div>
-				
-				<div class="text-dark">
-					<p class="footer-company-name">Lorem Ipsum © 2023</p>
-				</div>
+			</div>
+
+			<div class="container-fluid bg-dark text-white text-center">
+				<p class="p-2">Lorem Ipsum © 2023</p>
 			</div>
 
 		</footer> 
