@@ -19,7 +19,12 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+.card {
+    box-shadow: 0 0 18px rgb(157, 155, 245);
+}
+
 iframe {
     width: 100%;
     height: 450px;
 }
+
