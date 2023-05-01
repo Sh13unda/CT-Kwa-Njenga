@@ -10,7 +10,7 @@ html {
     height: 100%;
 }
 
-body {
+body, a {
     min-height: 100%;
     color: #2b6777;
 }
@@ -64,13 +64,15 @@ h1, h2, h3, h4, h5, h6, p {
 
 .btn {
     width: 290px;
+    border: 2px solid #2b6777;
     border-radius: 0px;
     letter-spacing: 1.6px;
     font-weight: 500;
+    background: #ffffff;
 }
 
 .btn:hover {
-    background: #ffffff;
+    border: 2px solid #2b6777;
     color: #c8d8e4;
 }
 
