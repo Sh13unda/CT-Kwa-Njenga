@@ -42,6 +42,7 @@ h1, h2, h3, h4, h5, h6, p {
     position: relative;
     height: 500px;
     background-image: url(/images/ctknlogo.jpg);
+    background-color: #2b6777;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
