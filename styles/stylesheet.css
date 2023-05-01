@@ -19,6 +19,10 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+.navbar:hover {
+    box-shadow: 0 0 18px rgb(157, 155, 245);
+}
+
 .hero {
     position: relative;
     height: 500px;
