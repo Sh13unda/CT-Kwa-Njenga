@@ -12,7 +12,7 @@ html {
 
 body {
     min-height: 100%;
-    color: #ffffff;
+    color: #2b6777;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -20,8 +20,22 @@ h1, h2, h3, h4, h5, h6, p {
     padding: 0;
 }
 
+.navbar {
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.nav-link {
+    color: #2b6777;
+}
+
 .navbar:hover {
     box-shadow: 0 0 18px rgb(157, 155, 245);
+}
+
+#map-area, .last-born {
+    color: #2b6777;
+    background: #f2f2f2;
 }
 
 .hero {
@@ -55,8 +69,18 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .btn:hover {
-    background: #fff;
-    color: yellow;
+    background: #ffffff;
+    color: #c8d8e4;
+}
+
+#who, #leadership {
+    background: #2b6777;
+    color: #f2f2f2;
+}
+
+#whatwebelieve {
+    background: #c8d8e4;
+    color: #f2f2f2;
 }
 
 .card {
@@ -66,5 +90,12 @@ h1, h2, h3, h4, h5, h6, p {
 iframe {
     width: 100%;
     height: 350px;
+}
+
+#last-child-footer {
+    background: #2b6777;
+}
+.contact, .card, #anchor, #last-child-footer, #h1 {
+    color: #2b6777;
 }
 
