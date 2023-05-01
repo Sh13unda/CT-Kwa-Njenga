@@ -42,6 +42,18 @@ h1, h2, h3, h4, h5, h6, p {
     font-size: 10rem;
 }
 
+.btn {
+    width: 290px;
+    border-radius: 0px;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+}
+
+.btn:hover {
+    background: #fff;
+    color: yellow;
+}
+
 .card {
     box-shadow: 0 0 18px rgb(157, 155, 245);
 }
