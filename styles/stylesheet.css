@@ -39,7 +39,6 @@ h1, h2, h3, h4, h5, h6, p {
 }
 
 .hero {
-    position: relative;
     height: 500px;
     background-image: url(/images/hero-bible.jpg);
     background-color: #2b6777;
@@ -47,15 +46,6 @@ h1, h2, h3, h4, h5, h6, p {
     background-position: center;
     background-size: cover;
     opacity: 0.4;
-}
-
-.hero-text {
-    position: absolute;
-    top: 25%;
-    right: 50%;
-    bottom: 50%;
-    left: 25%;
-    font-weight: bold;
 }
 
 .h1 {
