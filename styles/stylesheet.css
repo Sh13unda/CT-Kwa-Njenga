@@ -45,11 +45,12 @@ h1, h2, h3, h4, h5, h6, p {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    opacity: 0.4;
+    opacity: 0.7;
 }
 
 .lead {
     font-size: 1.2rem;
+    color: #2b6777;
 }
 
 .btn {
