@@ -62,18 +62,18 @@ function formatTime(time) {
     {
       title: "Teaching 1",
       id: "teaching1",
-      audioFile: "/media/teachings/Home Leadership.mp3",
+      audioFile: "media/teachings/Home Leadership.mp3",
       description: "Description for Teaching 1",
       subTitle: "Sub-Title for Teaching 1",
-      imageFile: "/images/hero-bible.jpg",
+      imageFile: "images/hero-bible.jpg",
     },
     {
       title: "Teaching 2",
       id: "teaching2",
-      audioFile: "/media/teachings/Home Leadership.mp3",
+      audioFile: "media/teachings/Home Leadership.mp3",
       description: "Description for Teaching 2",
       subTitle: "Sub-Title for Teaching 2",
-      imageFile: "/images/hero-bible.jpg",
+      imageFile: "images/hero-bible.jpg",
     },
     // Add more teachings as needed
   ];
