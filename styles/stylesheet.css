@@ -40,7 +40,7 @@ h1, h2, h3, h4, h5, h6, p {
 
 .hero {
     height: 80vh;
-    background-image: url(images/hero-bible.jpg);
+    background-image: url(/images/hero-bible.jpg);
     background-color: #2b6777;
     background-size: cover;
     background-position: center;
